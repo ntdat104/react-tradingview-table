@@ -1,0 +1,114 @@
+.textButton-bVzCMQYh {
+  overflow: hidden;
+}
+@media (min-width: 430px) {
+  .textButton-bVzCMQYh {
+    overflow: unset;
+  }
+}
+.textButton-afmkAx0B {
+  overflow: hidden;
+}
+@media (min-width: 430px) {
+  .textButton-afmkAx0B {
+    overflow: unset;
+  }
+}
+.container-RgM1Dd75 {
+  display: grid;
+  gap: 12px;
+  grid-auto-flow: column;
+  justify-content: end;
+  padding-right: 4px;
+}
+.container-yDuvR4fK {
+  cursor: default;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+.overlayScrollWrap-yDuvR4fK {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}
+.wrapper-yDuvR4fK {
+  max-height: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+@supports (-moz-appearance: none) {
+  .wrapper-yDuvR4fK {
+    scrollbar-width: none;
+  }
+}
+.wrapper-yDuvR4fK.sb-scrollbar-wrap {
+  display: none;
+}
+/* .wrapper-yDuvR4fK::-webkit-scrollbar {
+  display: none;
+  height: 0;
+  width: 0;
+}
+.wrapper-yDuvR4fK::-webkit-scrollbar-thumb,
+.wrapper-yDuvR4fK::-webkit-scrollbar-track {
+  display: none;
+}
+.wrapper-yDuvR4fK::-webkit-scrollbar-corner {
+  display: none;
+} */
+.cell-UhKtUaZw {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e3eb;
+  border-top: 1px solid #e0e3eb;
+  box-sizing: border-box;
+  cursor: default;
+  height: var(--screener-table-head-cell-height);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+html.theme-dark .cell-UhKtUaZw {
+  background-color: #000;
+  border-bottom: 1px solid #434651;
+  border-top: 1px solid #434651;
+}
+.isOver-UhKtUaZw {
+  z-index: 4;
+}
+.separator-UhKtUaZw {
+  background: #131722;
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  width: 2px;
+  z-index: 2;
+}
+html.theme-dark .separator-UhKtUaZw {
+  background: #d1d4dc;
+}
+.separator-UhKtUaZw:before {
+  background: #fff;
+  border: 2px solid #131722;
+  border-radius: 50%;
+  box-sizing: border-box;
+  content: "";
+  height: 8px;
+  left: -3px;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+html.theme-dark .separator-UhKtUaZw:before {
+  background: #000;
+  border: 2px solid #d1d4dc;
+}
+.before-UhKtUaZw {
+  left: -1px;
+}
+.after-UhKtUaZw {
+  right: -1px;
+}
